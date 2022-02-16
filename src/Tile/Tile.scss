@@ -1,0 +1,45 @@
+.tile {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6em;
+  border: 1px solid white;
+  border-radius: 0.2em;
+}
+
+.animate {
+  background-color: #00ffff;
+  position: relative;
+}
+
+.r2c3 {
+  animation: r2c3 1s forwards;
+  transition: opacity 1s;
+}
+
+@keyframes r2c3 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: -150px;
+    opacity: 0;
+  }
+}
+
+.r3c3 {
+  animation: r2c3 0.5s forwards;
+  transition: opacity 2s;
+}
+
+@keyframes r3c3 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: -450px;
+    opacity: 0;
+  }
+}
