@@ -11,7 +11,7 @@ Welcome to my implementation of the classic 2048 game! This project is a simple 
 - [License](#license)
 
 ## Demo
-![2048 Game Demo](https://jmp.sh/s/mxqo3digkVwtj8iPfTu4)
+![2048 Game Demo](./2048Gif.gif)
 
 
 ## Features
@@ -29,4 +29,4 @@ Welcome to my implementation of the classic 2048 game! This project is a simple 
 ## Installation
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/dhirajbhor11/2048-game.git
+   git clone https://github.com/dhirajbhor11/2048.git
